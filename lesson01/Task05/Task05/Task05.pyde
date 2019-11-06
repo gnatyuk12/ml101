@@ -23,7 +23,6 @@ def draw():
             if i2==j2:
                 fill(239, 26, 36)
                 rect(x, y, pixel_size, pixel_size)
-                print("hi")
             else:
                 fill(random_color)
                 rect(x, y, pixel_size, pixel_size)
@@ -33,6 +32,3 @@ def draw():
         y = y + pixel_size
         i2=i2+1
         j2=0
-        
-print(pixels2D[0][0])
-print(pixels2D[1][1])
